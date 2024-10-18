@@ -153,6 +153,11 @@ const assistantProfessorsData = {
       professorContainer.appendChild(professorDiv);
     });
   }
+
+  function menuToggle() {
+    var mobile_nav = document.querySelector('.sidebar_Pages_mob');
+    mobile_nav.classList.toggle('menu_animation');
+}
   
   // Call the function to display data
   displayProfessorData();
