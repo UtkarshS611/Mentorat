@@ -52,7 +52,6 @@ h2 {
 
   /* Links */
 a {
-    color: var(--accent-color);
     text-decoration: none;
 }
   /* Images */
