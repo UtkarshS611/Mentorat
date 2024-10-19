@@ -21,6 +21,8 @@ Made with HTML5, CSS3 , JAVASCRIPT
 - <img width="316" alt="image" src="https://github.com/user-attachments/assets/2c07265f-f291-4e24-a8d7-8dd00ec57434">
 
 - Contact Form: A straightforward way for users to reach out with inquiries, feedback, or support requests, enhancing communication.
+- <img width="544" alt="image" src="https://github.com/user-attachments/assets/44eb72a4-d7a6-466b-a4a7-92d6d37ba14c">
+
 - Popup notifications for ease of use:
 - <img width="204" alt="image" src="https://github.com/user-attachments/assets/361f8cc3-2367-469b-b683-970f0d98291c">
 
