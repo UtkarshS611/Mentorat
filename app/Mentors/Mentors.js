@@ -2,7 +2,7 @@
 const professorsData = {
     "professors": [
       {
-        "imgSRC": "http://sliet.ac.in/wp-content/uploads/avatars/5/6fc17d6735998f4f22a0e91fbf43b75c-bpfull.jpg",
+        "imgSRC": "public/images/1.jpg",
         "name": "Dr. Birmohan Singh",
         "qualifications": [
           "Ph.D.",
@@ -10,8 +10,7 @@ const professorsData = {
         ]
       },
       {
-        "imgSRC": "http://sliet.ac.in/wp-content/uploads/avatars/4/65783e7db0473-bpfull.jpg",
-        "name": "Dr. Damanpreet Singh",
+        "imgSRC": "public/images/2.jpg",
         "qualifications": [
           "Ph.D.",
           "M.Tech",
@@ -19,7 +18,7 @@ const professorsData = {
         ]
       },
       {
-        "imgSRC": "http://sliet.ac.in/wp-content/uploads/avatars/35/5e69c6be20c7e-bpfull.jpg",
+        "imgSRC": "public/images/3.jpg",
         "name": "Dr. Major Singh Goraya",
         "qualifications": [
           "Ph.D.",
@@ -28,7 +27,7 @@ const professorsData = {
         ]
       },
       {
-        "imgSRC": "http://sliet.ac.in/wp-content/uploads/avatars/6/605c66bd3e3bc-bpfull.jpg",
+        "imgSRC": "public/images/4.jpg",
         "name": "Dr. Manoj Sachan",
         "qualifications": [
           "B.Tech",
@@ -41,8 +40,7 @@ const professorsData = {
 const associateProfessorsData = {
   "professors": [
     {
-      "imgSRC": "http://sliet.ac.in/wp-content/uploads/avatars/14/5f2245e7a7f1bde5dee5bda48e09d411-bpfull.jpg",
-      "name": "Dr. Gurjinder Kaur",
+      "imgSRC": "public/images/5.jpg",
       "qualifications": [
         "B.E.",
         "M.S.",
@@ -54,8 +52,7 @@ const associateProfessorsData = {
 const assistantProfessorsData = {
   "professors": [
     {
-      "imgSRC": "http://sliet.ac.in/wp-content/uploads/avatars/467/66b8bb350cc46-bpfull.jpg",
-      "name": "Dr. Amar Nath",
+      "imgSRC": "public/images/6.jpg",
       "qualifications": [
         "B.Tech",
         "M.Tech",
@@ -63,7 +60,7 @@ const assistantProfessorsData = {
       ]
     },
     {
-      "imgSRC": "http://sliet.ac.in/wp-content/uploads/avatars/466/66f81ca30f4ff-bpfull.jpg",
+      "imgSRC": "public/images/7.jpg",
       "name": "Dr. Jagdeep Singh",
       "qualifications": [
         "B.Tech",
@@ -72,7 +69,7 @@ const assistantProfessorsData = {
       ]
     },
     {
-      "imgSRC": "http://sliet.ac.in/wp-content/uploads/avatars/16/66693282b6269-bpfull.jpg",
+      "imgSRC": "public/images/8.jpg",
       "name": "Dr. Manminder Singh",
       "qualifications": [
         "B.Tech",
