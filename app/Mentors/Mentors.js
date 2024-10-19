@@ -2,7 +2,7 @@
 const professorsData = {
     "professors": [
       {
-        "imgSRC": "https://images.unsplash.com/photo-1728763424935-8d2901c74515?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxM3x8fGVufDB8fHx8fA%3D%3D",
+        "imgSRC": "http://sliet.ac.in/wp-content/uploads/avatars/5/6fc17d6735998f4f22a0e91fbf43b75c-bpfull.jpg",
         "name": "Dr. Birmohan Singh",
         "qualifications": [
           "Ph.D.",
@@ -10,7 +10,7 @@ const professorsData = {
         ]
       },
       {
-        "imgSRC": "https://images.unsplash.com/photo-1728763424935-8d2901c74515?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxM3x8fGVufDB8fHx8fA%3D%3D",
+        "imgSRC": "http://sliet.ac.in/wp-content/uploads/avatars/4/65783e7db0473-bpfull.jpg",
         "name": "Dr. Damanpreet Singh",
         "qualifications": [
           "Ph.D.",
@@ -19,7 +19,7 @@ const professorsData = {
         ]
       },
       {
-        "imgSRC": "https://images.unsplash.com/photo-1728763424935-8d2901c74515?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxM3x8fGVufDB8fHx8fA%3D%3D",
+        "imgSRC": "http://sliet.ac.in/wp-content/uploads/avatars/35/5e69c6be20c7e-bpfull.jpg",
         "name": "Dr. Major Singh Goraya",
         "qualifications": [
           "Ph.D.",
@@ -28,7 +28,7 @@ const professorsData = {
         ]
       },
       {
-        "imgSRC": "https://images.unsplash.com/photo-1728763424935-8d2901c74515?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxM3x8fGVufDB8fHx8fA%3D%3D",
+        "imgSRC": "http://sliet.ac.in/wp-content/uploads/avatars/6/605c66bd3e3bc-bpfull.jpg",
         "name": "Dr. Manoj Sachan",
         "qualifications": [
           "B.Tech",
@@ -41,7 +41,7 @@ const professorsData = {
 const associateProfessorsData = {
   "professors": [
     {
-      "imgSRC": "https://images.unsplash.com/photo-1728763424935-8d2901c74515?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxM3x8fGVufDB8fHx8fA%3D%3D",
+      "imgSRC": "http://sliet.ac.in/wp-content/uploads/avatars/14/5f2245e7a7f1bde5dee5bda48e09d411-bpfull.jpg",
       "name": "Dr. Gurjinder Kaur",
       "qualifications": [
         "B.E.",
@@ -54,29 +54,29 @@ const associateProfessorsData = {
 const assistantProfessorsData = {
   "professors": [
     {
-      "imgSRC": "https://images.unsplash.com/photo-1728763424935-8d2901c74515?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxM3x8fGVufDB8fHx8fA%3D%3D",
-      "name": "abcd",
+      "imgSRC": "http://sliet.ac.in/wp-content/uploads/avatars/467/66b8bb350cc46-bpfull.jpg",
+      "name": "Dr. Amar Nath",
       "qualifications": [
-        "B.E.",
-        "M.S.",
+        "B.Tech",
+        "M.Tech",
         "Ph.D."
       ]
     },
     {
-      "imgSRC": "https://images.unsplash.com/photo-1728763424935-8d2901c74515?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxM3x8fGVufDB8fHx8fA%3D%3D",
-      "name": "abcd",
+      "imgSRC": "http://sliet.ac.in/wp-content/uploads/avatars/466/66f81ca30f4ff-bpfull.jpg",
+      "name": "Dr. Jagdeep Singh",
       "qualifications": [
-        "B.E.",
-        "M.S.",
+        "B.Tech",
+        "M.Tech",
         "Ph.D."
       ]
     },
     {
-      "imgSRC": "https://images.unsplash.com/photo-1728763424935-8d2901c74515?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxM3x8fGVufDB8fHx8fA%3D%3D",
-      "name": "abcd",
+      "imgSRC": "http://sliet.ac.in/wp-content/uploads/avatars/16/66693282b6269-bpfull.jpg",
+      "name": "Dr. Manminder Singh",
       "qualifications": [
-        "B.E.",
-        "M.S.",
+        "B.Tech",
+        "M.Tech",
         "Ph.D."
       ]
     }
