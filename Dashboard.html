@@ -13,11 +13,9 @@
                 Mentorat
             </div>
             <div class="sidebar_Pages">
-                <a href="Mentors.html">Mentors</a>
-                <a href="/app/Dashboard/about">Book slots</a>
-                <a href="/app/Dashboard/services">Sessions</a>
-                <a href="/app/Dashboard/contact">Community</a>
-                <a href="/app/Dashboard/contact">Contact</a>
+                <button id="Mentor">Mentors</button>
+                <button id="BOOK">Book slots</button>
+                <button id="Contact">Contact</button>
             </div>
             <button class="open_menu"
             onclick="menuToggle()"
@@ -35,7 +33,7 @@
                 </div>
             </div>
         </section>
-        <section class="faculty hidden">
+        <section class="faculty">
             <h1>Meet our faculty</h1>
             <div class="profile_container">
                 <div class="title">
@@ -95,7 +93,7 @@
                 </div>
             </div>
         </section>
-        <section class="contact_mentor">
+        <section class="contact_mentor hidden">
             <h1>Contact Our Mentor</h1>
             <div id="chat-container">
                 <div id="chat-box"></div>
@@ -109,5 +107,6 @@
     <script src="/app/Mentors/Mentors.js"></script>
     <script src="/app/Slots/Slot.js"></script>
     <script src="/app/ContactMentor/contactMentor.js"></script>
+    <script src="/app/Dashboard/dashboard.js"></script>
 </body>
 </html>

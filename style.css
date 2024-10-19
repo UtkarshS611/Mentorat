@@ -282,3 +282,32 @@ nav ul li a {
         box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.24);
     }
 }
+
+.features{
+    width: 80%;
+    margin-inline: auto;
+    margin-top: 5rem;
+
+    .first_feature,
+    .second_feature,
+    .third_feature{
+        display: flex;
+        gap: 2rem;
+        margin-block: 2rem;
+    }
+
+    .para{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+footer{
+    border-top: 1px solid #ccc;
+    width: 80%;
+    margin-inline: auto;
+    display: flex;
+    padding: 1.5rem 1rem;
+    justify-content: space-between;
+}

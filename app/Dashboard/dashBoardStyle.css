@@ -6,7 +6,7 @@
     --secondary-border-color: #c4c4c4; /* Gray border */
     --primary-text-color: #333333;     /* Dark text */
     --secondary-text-color: #777777;   /* Lighter text */
-    --accent-color: #ff6b6b;           /* Accent (e.g. buttons) */
+    --accent-color: #f77f00;           /* Accent (e.g. buttons) */
 }
 
 /* Font Sizes */
@@ -86,14 +86,21 @@ main{
         margin-top: 5rem;
         align-items: start;
         
-        & a{
-            color: white;
+        & button{
+            color: var(--accent-color);
             font-size: var(--font-size-md);
-            background-color: #1a1a2e;
+            background-color: #fff;
+            border: 1px solid var(--accent-color);
             width: 100%;
+            cursor: pointer;
             text-align: center;
             padding-block: 0.25rem;
             border-radius: 0.25rem;
+
+            &:hover{
+                background-color: var(--accent-color);
+                color: white;
+            }
         }
     }
 }

@@ -99,8 +99,8 @@ const assistantProfessorsData = {
         <strong>Name:</strong> ${prof.name} <br>
         <strong>Qualifications:</strong> ${prof.qualifications.join(', ')}
         <div class="btn">
-        <button>Book slots</button>
-        <button>Contact</button>
+        <button id="BOOK">Book slots</button>
+        <button id="Contact">Contact</button>
         </div>
       `;
   
@@ -163,4 +163,3 @@ const assistantProfessorsData = {
   displayProfessorData();
   displayAssociateProfessorData();
   displayAssistantProfessorData();
-  
