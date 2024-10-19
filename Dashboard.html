@@ -35,7 +35,7 @@
                 </div>
             </div>
         </section>
-        <section class="faculty">
+        <section class="faculty hidden">
             <h1>Meet our faculty</h1>
             <div class="profile_container">
                 <div class="title">
@@ -65,8 +65,39 @@
                 </div>
             </div>
         </section>
+        <section class="Slots">
+            <h1>Mentor Slot Booking</h1>
+            <div class="form">
+                <p>
+                    Welcome to our mentorship platform, where students can connect with experienced mentors who are dedicated to guiding you through your academic and career journey. Whether you're seeking advice on coursework, career choices, or skill development, our mentors are here to support and empower you. This platform provides a personalized experience, allowing you to book one-on-one sessions with mentors based on their expertise and availability. Take this opportunity to learn, grow, and achieve your goals with the guidance of our dedicated faculty. We're excited to help you unlock your potential!
+                </p>
+                <button id="book-slot-btn">Book a Slot</button>
+                <div id="booking-form" class="hidden">
+                    <h3>Book a Slot</h3>
+                
+                    <label for="teacher-select">Select Teacher:</label>
+                    <select id="teacher-select"></select>
+                
+                    <br><br>
+                
+                    <label for="time-slot-select">Available Time Slots:</label>
+                    <select id="time-slot-select"></select>
+                
+                    <br><br>
+                
+                    <button id="save-slot-btn">Save Slot</button>
+                </div>
+                <p>Please note that all bookings are subject to the availability of the selected teacher. Time slots may fill up quickly, so we encourage you to check for open slots and book in advance. Thank you for your understanding!</p>
+            </div>
+            <div id="popup" class="popup popup_animation hidden">
+                <div class="popup-content">
+                    <p>Slot booked successfully!</p>
+                </div>
+            </div>
+        </section>
     </main>
 
     <script src="/app/Mentors/Mentors.js"></script>
+    <script src="/app/Slots/Slot.js"></script>
 </body>
 </html>

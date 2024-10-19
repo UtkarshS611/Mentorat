@@ -241,3 +241,161 @@ main{
         display: none;
     }
 }
+
+.hidden{
+    display: none;
+}
+
+.Slots{
+    padding-inline: 2rem;
+    margin-top: 2rem;
+    width: 81vw;
+    position: absolute;
+    right: 0;
+
+    h1{
+        text-align: center;
+    }
+
+}
+
+.form{
+    /* height: 40vh;
+    width: 30vw; */
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-inline: 1rem;
+    padding-block: 2rem;
+    
+    > p{
+        text-align: center;
+    }
+
+    > button{
+        background-color: #4d86cf;
+        color: white;
+        cursor: pointer;
+        border: none;
+        padding-block: 10px;
+        padding-inline: 20px;
+        border-radius: 5px;
+    }
+}
+
+#booking-form {
+        width: 300px;
+        padding: 20px;
+        border: 1px solid #007bff;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 20px auto;
+    }
+    
+    h3 {
+        color: #007bff;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    label {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 8px;
+    }
+    
+    select {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    
+    #save-slot-btn {
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    button:hover {
+        background-color: #0056b3;
+    }
+    
+    .hidden {
+        display: none;
+    }
+    
+    /* Media query for responsive design */
+    @media (max-width: 480px) {
+        #booking-form {
+        width: 100%;
+        padding: 15px;
+        }
+    
+        select, button {
+        font-size: 14px;
+        }
+}
+
+.popup {
+        position: fixed;
+        right: 2rem;
+        top: 1rem;
+        background-color: white;
+        border: 1px solid #70e000;
+        background-color: #c7f9cc;
+        padding: 10px 20px;
+        text-align: center;
+        z-index: 1000;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    .popup-content {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .close-btn {
+        font-size: 20px;
+        color: #007bff;
+        cursor: pointer;
+        align-self: flex-end;
+        margin-bottom: 10px;
+    }
+    
+    .close-btn:hover {
+        color: #0056b3;
+}
+
+.popup_animation{
+    animation: move 3s linear forwards;
+}
+@keyframes move{
+    0% {
+        right: -20rem;
+    }
+    10% {
+        right: 2rem;
+    }
+    90% {
+        right: 2rem;
+    }
+    100% {
+        right: -20rem;
+    }
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slot Booking Feature</title>
+  <style>
+    .slot {
+      display: inline-block;
+      padding: 10px;
+      margin: 5px;
+      border: 1px solid #007bff;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .booked {
+      background-color: #ccc;
+      cursor: not-allowed;
+      border-color: #888;
+    }
+
+    .available {
+      background-color: #28a745;
+      color: white;
+    }
+
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Mentor Slot Booking</h1>
+  
+  <!-- Book Slot Button -->
+  <button id="book-slot-btn">Book a Slot</button>
+
+  <!-- Booking Form (initially hidden) -->
+  <div id="booking-form" class="hidden">
+    <h3>Book a Slot</h3>
+
+    <label for="teacher-select">Select Teacher:</label>
+    <select id="teacher-select"></select>
+
+    <br><br>
+
+    <label for="time-slot-select">Available Time Slots:</label>
+    <select id="time-slot-select"></select>
+
+    <br><br>
+
+    <button id="save-slot-btn">Save Slot</button>
+  </div>
+
+  <!-- Booking Message -->
+  <p id="booking-message"></p>
+
+  <script>
+    // Example data for teachers and their available slots
+const teachersData = [
+  {
+    name: "Dr. Anjali Verma",
+    slots: [
+      { time: "9:00 AM - 10:00 AM", isBooked: false },
+      { time: "10:00 AM - 11:00 AM", isBooked: true }, // Already booked
+      { time: "11:00 AM - 12:00 PM", isBooked: false }
+    ]
+  },
+  {
+    name: "Dr. Rajesh Sharma",
+    slots: [
+      { time: "1:00 PM - 2:00 PM", isBooked: false },
+      { time: "2:00 PM - 3:00 PM", isBooked: false },
+      { time: "3:00 PM - 4:00 PM", isBooked: true } // Already booked
+    ]
+  }
+];
+
+// Elements
+const bookSlotBtn = document.getElementById("book-slot-btn");
+const bookingForm = document.getElementById("booking-form");
+const teacherSelect = document.getElementById("teacher-select");
+const timeSlotSelect = document.getElementById("time-slot-select");
+const saveSlotBtn = document.getElementById("save-slot-btn");
+const bookingMessage = document.getElementById("booking-message");
+
+// Display the booking form when "Book Slot" button is clicked
+
+bookSlotBtn.addEventListener("click", function() {
+
+  // Show the booking form
+    bookingForm.classList.remove("hidden");
+    
+    // Populate teacher options
+        populateTeacherOptions();
+    });
+
+    // Populate teacher dropdown
+    function populateTeacherOptions() {
+    teacherSelect.innerHTML = ""; // Clear previous options
+
+    teachersData.forEach((teacher, index) => {
+        const option = document.createElement("option");
+        option.value = index; // Save the index of the teacher
+        option.textContent = teacher.name;
+        teacherSelect.appendChild(option);
+    });
+
+    // Automatically populate time slots for the first teacher
+    populateTimeSlotOptions(0);
+}
+
+// Populate time slot dropdown based on selected teacher
+function populateTimeSlotOptions(teacherIndex) {
+  const selectedTeacher = teachersData[teacherIndex];
+  timeSlotSelect.innerHTML = ""; // Clear previous options
+
+  selectedTeacher.slots.forEach((slot, index) => {
+    if (!slot.isBooked) {
+      const option = document.createElement("option");
+      option.value = index; // Save the index of the slot
+      option.textContent = slot.time;
+      timeSlotSelect.appendChild(option);
+    }
+  });
+}
+
+// Change time slots when a new teacher is selected
+teacherSelect.addEventListener("change", function() {
+  const selectedTeacherIndex = this.value;
+  populateTimeSlotOptions(selectedTeacherIndex);
+});
+
+// Save the selected slot when "Save Slot" button is clicked
+saveSlotBtn.addEventListener("click", function() {
+  const selectedTeacherIndex = teacherSelect.value;
+  const selectedSlotIndex = timeSlotSelect.value;
+
+  if (selectedSlotIndex !== null && selectedSlotIndex !== undefined) {
+    // Mark the selected slot as booked
+    teachersData[selectedTeacherIndex].slots[selectedSlotIndex].isBooked = true;
+
+    // Show booking confirmation
+    bookingMessage.textContent = `You have successfully booked ${teachersData[selectedTeacherIndex].slots[selectedSlotIndex].time} with ${teachersData[selectedTeacherIndex].name}.`;
+
+    // Hide the form again
+    bookingForm.classList.add("hidden");
+
+    // Clear selections
+    teacherSelect.value = "";
+    timeSlotSelect.innerHTML = "";
+  }
+});
+
+  </script>
+</body>
+</html>
