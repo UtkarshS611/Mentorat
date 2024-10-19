@@ -200,7 +200,7 @@ main{
             top: 0;
             right: 0;
             height: 100vh;
-            width: 20vw;
+            width: 100%;
             max-width: 50vw;
             padding: 20px;
             background-color: #ccc;
