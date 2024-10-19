@@ -2,7 +2,7 @@
 const professorsData = {
     "professors": [
       {
-        "imgSRC": "public/images/1.jpg",
+        "imgSRC": "https://images.unsplash.com/photo-1728763424935-8d2901c74515?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxM3x8fGVufDB8fHx8fA%3D%3D",
         "name": "Dr. Birmohan Singh",
         "qualifications": [
           "Ph.D.",
@@ -10,7 +10,8 @@ const professorsData = {
         ]
       },
       {
-        "imgSRC": "public/images/2.jpg",
+        "imgSRC": "https://images.unsplash.com/photo-1728763424935-8d2901c74515?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxM3x8fGVufDB8fHx8fA%3D%3D",
+        "name": "Dr. Damanpreet Singh",
         "qualifications": [
           "Ph.D.",
           "M.Tech",
@@ -18,7 +19,7 @@ const professorsData = {
         ]
       },
       {
-        "imgSRC": "public/images/3.jpg",
+        "imgSRC": "https://images.unsplash.com/photo-1728763424935-8d2901c74515?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxM3x8fGVufDB8fHx8fA%3D%3D",
         "name": "Dr. Major Singh Goraya",
         "qualifications": [
           "Ph.D.",
@@ -27,7 +28,7 @@ const professorsData = {
         ]
       },
       {
-        "imgSRC": "public/images/4.jpg",
+        "imgSRC": "https://images.unsplash.com/photo-1728763424935-8d2901c74515?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxM3x8fGVufDB8fHx8fA%3D%3D",
         "name": "Dr. Manoj Sachan",
         "qualifications": [
           "B.Tech",
@@ -40,7 +41,8 @@ const professorsData = {
 const associateProfessorsData = {
   "professors": [
     {
-      "imgSRC": "public/images/5.jpg",
+      "imgSRC": "https://images.unsplash.com/photo-1728763424935-8d2901c74515?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxM3x8fGVufDB8fHx8fA%3D%3D",
+      "name": "Dr. Gurjinder Kaur",
       "qualifications": [
         "B.E.",
         "M.S.",
@@ -52,28 +54,29 @@ const associateProfessorsData = {
 const assistantProfessorsData = {
   "professors": [
     {
-      "imgSRC": "public/images/6.jpg",
+      "imgSRC": "https://images.unsplash.com/photo-1728763424935-8d2901c74515?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxM3x8fGVufDB8fHx8fA%3D%3D",
+      "name": "abcd",
       "qualifications": [
-        "B.Tech",
-        "M.Tech",
+        "B.E.",
+        "M.S.",
         "Ph.D."
       ]
     },
     {
-      "imgSRC": "public/images/7.jpg",
-      "name": "Dr. Jagdeep Singh",
+      "imgSRC": "https://images.unsplash.com/photo-1728763424935-8d2901c74515?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxM3x8fGVufDB8fHx8fA%3D%3D",
+      "name": "abcd",
       "qualifications": [
-        "B.Tech",
-        "M.Tech",
+        "B.E.",
+        "M.S.",
         "Ph.D."
       ]
     },
     {
-      "imgSRC": "public/images/8.jpg",
-      "name": "Dr. Manminder Singh",
+      "imgSRC": "https://images.unsplash.com/photo-1728763424935-8d2901c74515?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxM3x8fGVufDB8fHx8fA%3D%3D",
+      "name": "abcd",
       "qualifications": [
-        "B.Tech",
-        "M.Tech",
+        "B.E.",
+        "M.S.",
         "Ph.D."
       ]
     }
