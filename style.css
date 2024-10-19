@@ -311,3 +311,24 @@ footer{
     padding: 1.5rem 1rem;
     justify-content: space-between;
 }
+
+@media (max-width: 768px) {
+    .features{
+        width: 80%;
+        margin-inline: auto;
+
+        .first_feature,
+        .second_feature,
+        .third_feature{
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .para{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+    
+}
