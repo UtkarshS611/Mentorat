@@ -75,8 +75,13 @@ main{
     width: 18vw;
     padding-inline: 1rem;
 
+    a{
+        text-decoration: none;
+        color: black;
+    }
     > .Logo{
         font-size: var(--font-size-xl);
+
     }
 
     > .sidebar_Pages{
