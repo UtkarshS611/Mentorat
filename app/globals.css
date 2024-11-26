@@ -65,3 +65,7 @@
   }
 }
 
+.gradient{
+  background: linear-gradient(-20deg, #ffb4a2, #ffcdb2 60% , #fff);
+}
+
